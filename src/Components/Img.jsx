@@ -3,8 +3,8 @@ import React from 'react'
 const Img = () => {
   return (
     <>
-    <div className='border-2 flex flex-col e w-[80vw] h-[85vh] self-start mr-32 mt-6'>    
-        <img src="" alt="Img soon" />
+    <div className=' flex justify-center  w-[80vw] h-[83vh] self-start mr-32 mt-6 '>    
+        <img src="./images/me.png" alt="somthimg is wrong" className='w-[30vw]  object-contain brightness-75 object-bottom'/>
      </div>
     </>
   )

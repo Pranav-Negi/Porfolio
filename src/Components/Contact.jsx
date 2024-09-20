@@ -39,21 +39,11 @@ const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm('service_ynxmzg4', 'template_3t8v5ji', form.current, {
+    emailjs.sendForm('service_ynxmzg4', 'template_3t8v5ji', form.current, {
         publicKey: 'yIXiVoWJmIFc1Wmx7',
       })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
       form.current.reset();
-      alert("info send")
+      alert("From Submitted")
   };
   return (
       <>

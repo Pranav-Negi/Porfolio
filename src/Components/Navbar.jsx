@@ -9,9 +9,9 @@ const Navbar = () => {
         console.log(setactive)
     }
   return (
-    <nav className="flex justify-around border border-[#282d38] backdrop-blur-SM ">
+    <nav className="flex justify-around border border-[#282d38] backdrop-blur-SM pt-3 pb-2">
         <div>
-            <img src="" alt="Image" />
+            <img src="./images/logo.png" alt="Image" className='w-10 invert brightness-100 blend mix-blend-color-dodge' />
         </div>
         <div className='cursor-pointer'>
             <ul className="flex gap-5 text-[20px] ">
